@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="vet.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Calcule as Doses</title>
+</head>
+<body>
+<div id="container">
+    <div>
+        <h1 class="title"   >Calculadora de Doses</h1>
+    </div>
+    <div>
+        <form class="dosageForm" id="dosageForm">
+            <label for="Weight">
+                <p>Qual peso do animal?</p>
+            </label>
+            <p>
+                Kg   <input type="number" step="any" placeholder="10" name="Weight" id="Weight"class="formInput" >  
+            </p>
+            <label for="dosage">
+                <p>Qual dose?</p>
+            </label>
+            <p>
+                mg/Kg <input type="number" step="any" placeholder="0,5" name="dosage" id="dosage"class="formInput" >  
+            </p>
+            </p>
+            <label for="concentration">
+                <p>Qual concentração do fármaco?</p>
+            </label>
+            <p>
+                mg/ml <input type="number" step="any" placeholder="1" name="5" id="concentration" class="formInput" >
+            </p>
+            <button type="submit" class="formSubmit">Calcular</button>
+        </form>
+    </div>
+    <div id="prescrition">
+        Prescreva 
+         <span id="tip">0.00</span> ml
+        
+    </div>
+    <script type="text/javascript"  src="JS.js"></script>
+</div>
+    
+</body>
+</html>

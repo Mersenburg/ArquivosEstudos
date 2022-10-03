@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root{ 
+    --primary-color: rgba(10, 163, 36, 0.664);
+    --secundary-color: rgb(8, 1, 1) ;
+    --tertiary-color: rgb(34, 231, 27);    
+}
+body{
+    /*display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;*/
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: "lato",sans-serif;
+}
+#container{
+    height: 524px;
+    width: 360px;
+    margin: 140px auto;
+    background-color: white;
+    /*box-shadow: 3px 3px 3px var(--tertiary-color);*/
+    border-radius: 30px;
+}
+
+.title {
+    background-color: var(--tertiary-color);
+    color: var(--secundary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.dosageForm{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.formInput{
+    background-color: white;
+    width: 140px;
+    padding: 5px 5px 8px 8px;
+    border-radius: 10px;
+}
+.formInput:focus{
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+.Weight{
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 10px;
+}
+.formSubmit{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+.formSubmit:hover{
+    background-color: var(--tertiary-color);
+    color: black;
+}
+#prescrition{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}

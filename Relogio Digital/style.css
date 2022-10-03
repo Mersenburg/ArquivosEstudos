@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Mono:wght@100&family=Sarala:wght@400;700&family=Shadows+Into+Light&display=swap');*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,
+
+body{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    
+
+}
+
+.relogio{
+    
+    color: #ff0000;
+    font-size: 144px;
+    font-weight: 300;
+
+}

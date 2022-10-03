@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: #F3F5F7;
+}
+
+.cabecalho{
+    display:flex ;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+    padding: 124px;
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 230px;
+    
+}
+.codelandia {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.blog {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.pesquisa {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+ 
+.container {
+
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+    padding: 124px;
+    
+}
+
+.noticia {
+    
+    gap: 20px;
+    padding: 10px;
+    
+}
+
+.data {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 16;
+    color: #717171;
+    padding-top: 15px;
+    align-content: space-between;
+}
+
+.imagem-coracao{
+    align-self: flex-end;
+    height: 15px;
+}
+
+.button {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+    border: none;
+    max-width: 900px;
+    
+}
+.button:hover {
+    background-color: rgba(17, 88, 196, 0.53);
+
+}
+.titulo {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 26px;
+    align-items: center;
+    color: #1A202C
+
+}
+.subtitulo {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 18px;
+    color: #717171;
+}
