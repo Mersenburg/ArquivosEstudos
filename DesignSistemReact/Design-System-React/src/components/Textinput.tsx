@@ -60,7 +60,7 @@ function TextInputInput(props: TextInputInputProps) {
         
             <input className={clsx(
                 'bg-transparent',
-                'flex1',
+                'flex-1',
                 'placeholder:text-gray-400',
                 'text-gray-100',
                 'text-xs',
